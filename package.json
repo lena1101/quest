@@ -1,0 +1,20 @@
+{
+  "name": "quest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/main.js",
+  "scripts": {
+    "build": "tsc src/main.ts --outDir bin",
+    "test": "node bin/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/color": "^3.0.1",
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
